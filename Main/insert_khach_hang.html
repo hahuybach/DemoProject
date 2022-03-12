@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="login_signup">
+        <a href="">Log Out</a>
+    </section>
+    <!-- navbar  -->
+
+    <header>
+        <nav class="navbar">
+            <a href="#house" class="navbar_item">Houses</a>
+            <a href="#tenants" class="navbar_item">Tenants</a>
+            <a href="#invoices" class="navbar_item">Invoices</a>
+            <a href="#payments" class="navbar_item">Payments</a>
+            <a href="#balances" class="navbar_item">Balances</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="title">Insert Tenant</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" placeholder="Enter tenant name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Identification Number</span>
+                        <input type="text" placeholder="Enter tenant identification number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter tenant phone number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Place Of Birth</span>
+                        <input type="text" placeholder="Enter tenant place of birth" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Permanent Residence</span>
+                        <input type="text" placeholder="Enter tenant password" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Date Of Birth</span>
+                        <input type="date" placeholder="Enter tenant date of birth" required>
+                    </div>
+                    
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1" value="male">
+                    <input type="radio" name="gender" id="dot-2" value="female">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Female</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <span class="details">Room</span>
+                    <select name="" id="">
+                        <option value="">Select room</option>
+                    </select>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

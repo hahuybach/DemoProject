@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/04a2d528b9.js" crossorigin="anonymous"></script>
+    <title>Rent</title>
+</head>
+
+<body>
+    <section class="login_signup">
+        <a href="">Log Out</a>
+    </section>
+    <!-- navbar  -->
+
+    <header>
+        <nav class="navbar">
+            <a href="#house" class="navbar_item">Houses</a>
+            <a href="#tenants" class="navbar_item">Tenants</a>
+            <a href="#invoices" class="navbar_item">Invoices</a>
+            <a href="#payments" class="navbar_item">Payments</a>
+            <a href="#balances" class="navbar_item">Balances</a>
+        </nav>
+    </header>
+    <!-- <div class="main">
+        <h1>Please login to see information</h1>
+    </div> -->
+    <script>
+        $(".navbar_item").click(function () {
+            $(".active").removeClass("active")
+            $(this).addClass("active")
+        });
+    </script>
+
+</body>
+
+</html>
